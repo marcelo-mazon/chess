@@ -1,11 +1,56 @@
+@font-face {
+  font-family: "Overlock";
+  src: local("Overlock"), url("../fonts/Overlock-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Overlock";
+  src: local("Overlock"), url("../fonts/Overlock-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  color: hsl(0 0% 20%);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  color: hsl(39 100% 41%);
+  line-height: 1.1;
+  font-family: Overlock;
+  font-weight: 700;
+}
+
 h1 {
-  color: goldenrod;
+  font-size: 3rem;
 }
 
 h2 {
-  color: goldenrod;
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1 span {
+  color: hsl(0 0% 20%);
+  font-size: 0.75em;
+  font-weight: 400;
 }
 
 a {
-  color: goldenrod;
+  color: hsl(39 100% 41%);
+}
+
+a:hover,
+a:focus-visible {
+  color: inherit;
+}
+
+.lede {
+  font-size: 1.3125rem;
 }
